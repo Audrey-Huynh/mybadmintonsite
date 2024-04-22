@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(217deg, rgb(254, 98, 197,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgb(98, 254, 228,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgb(124, 98, 254,.8), rgba(0,0,255,0) 70.71%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #0062ff;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+}

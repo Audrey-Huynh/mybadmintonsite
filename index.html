@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>All About Badminton 🏸</h1>
+  <h2 id="grip">Grips</h2>
+  <ul>
+    <li>Forehand</li>
+    <li>Backhand</li>
+  </ul>
+  <h2>Different types of shots</h2>
+  <ul>
+    <li>Drive</li>
+    <li>Clear</li>
+    <li>Back drop</li>
+    <li>Net drop</li>
+    <li>Smash</li>
+  </ul>
+  <h2>How to do backcourt footwork</h2>
+  <ul>
+    <li>Don't run backwards</li>
+    <li>Shuffle</li>
+  </ul>
+  <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="450" height="400"/>
+  <br><a href="https://www.youtube.com/watch?app=desktop&v=F_b9UIeTOsI">This video has beginner me playing varsity in my second pre-season game (2023)</a>
+  <br>
+  <a href="#grip"><h1>Go back to grips</h1></a>
+  <br>
+
+  <script>
+  function changeColor() {
+    const colors = ['red', 'blue', 'green', 'purple', 'orange']
+    document.getElementById("button").style.backgroundColor = colors[Math.floor((Math.random()*colors.length))];
+  }
+    </script>
+  <button onclick = "changeColor()" id = "button">Click to change color</button>
+</body>
+
+</html>
